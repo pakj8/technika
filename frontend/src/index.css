@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+
+
+/* remove scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mainWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.technika-font {
+  font-family: "ARDESTINE";
+  
+}
+
+.links {
+  text-decoration: none;
+}
+
+.font {
+  width: 500px;
+  height: auto;
+}
+
+.landing-img {
+  width: 400px;
+  height: auto;
+}
+.space-font {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.technika-logo {
+  width: 350px;
+  height: auto;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+
+@tailwind utilities;
